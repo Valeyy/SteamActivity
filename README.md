@@ -4,6 +4,9 @@ This program minimizes itself to the system tray when you start it. You can add 
 
 Normally you would have to do this with for example Notepad, which is annoying, because it always stays in your taskbar.
 
+If you need any help you can contact me on Discord.
+Valey^#8698
+
 ## Installation
 
 1. [Add the SteamActivityChanger.exe as a non-steam game to steam](https://prnt.sc/10mla1c)
@@ -14,10 +17,8 @@ Normally you would have to do this with for example Notepad, which is annoying, 
 
 The program will now automatically start through steam when you start your computer.
 
-
-
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. 
 
 
 ## License
