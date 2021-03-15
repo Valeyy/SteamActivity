@@ -1,0 +1,10 @@
+C:\Users\lange\source\repos\SteamActivity\SteamActivity\bin\Debug\SteamActivity.exe.config
+C:\Users\lange\source\repos\SteamActivity\SteamActivity\bin\Debug\SteamActivity.exe
+C:\Users\lange\source\repos\SteamActivity\SteamActivity\bin\Debug\SteamActivity.pdb
+C:\Users\lange\source\repos\SteamActivity\SteamActivity\obj\Debug\SteamActivity.csprojAssemblyReference.cache
+C:\Users\lange\source\repos\SteamActivity\SteamActivity\obj\Debug\SteamActivity.App.resources
+C:\Users\lange\source\repos\SteamActivity\SteamActivity\obj\Debug\SteamActivity.Properties.Resources.resources
+C:\Users\lange\source\repos\SteamActivity\SteamActivity\obj\Debug\SteamActivity.csproj.GenerateResource.cache
+C:\Users\lange\source\repos\SteamActivity\SteamActivity\obj\Debug\SteamActivity.csproj.CoreCompileInputs.cache
+C:\Users\lange\source\repos\SteamActivity\SteamActivity\obj\Debug\SteamActivity.exe
+C:\Users\lange\source\repos\SteamActivity\SteamActivity\obj\Debug\SteamActivity.pdb
