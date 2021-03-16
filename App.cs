@@ -13,33 +13,30 @@ namespace SteamActivity
     public partial class App : Form
     {
         private ContextMenu contextMenu1;
-        private MenuItem menuItem1, 
-                         menuItem2;
+        private MenuItem menuItemOpen, 
+                         menuItemExit;
 
         public App()
         {
             InitializeComponent();
          
             this.contextMenu1 = new ContextMenu();
-            this.menuItem1 = new MenuItem();
-            this.menuItem2 = new MenuItem();
+            this.menuItemOpen = new MenuItem();
+            this.menuItemExit = new MenuItem();
 
             this.contextMenu1.MenuItems.AddRange(
-               new MenuItem[] { this.menuItem2, this.menuItem1 });
+               new MenuItem[] { this.menuItemExit, this.menuItemOpen });
 
-            this.menuItem1.Index = 0;
-            this.menuItem1.Text = "Open";
-            this.menuItem1.Click += new EventHandler(this.menuItem1_Click);
+            this.menuItemOpen.Index = 0;
+            this.menuItemOpen.Text = "Open";
+            this.menuItemOpen.Click += new EventHandler(this.menuItemOpen_Click);
 
-            this.menuItem2.Index = 1;
-            this.menuItem2.Text = "Exit";
-            this.menuItem2.Click += new EventHandler(this.menuItem2_Click);
+            this.menuItemExit.Index = 1;
+            this.menuItemExit.Text = "Exit";
+            this.menuItemExit.Click += new EventHandler(this.menuItemExit_Click);
 
             notifyIcon1.ContextMenu = contextMenu1;
-
             notifyIcon1.Icon = new Icon("steam.ico");
-
-            notifyIcon1.ContextMenu = this.contextMenu1;
 
             notifyIcon1.Text = "Steam Activity";
             notifyIcon1.Visible = true;
@@ -48,7 +45,7 @@ namespace SteamActivity
             this.ShowInTaskbar = false;
         }
 
-        private void menuItem2_Click(object sender, EventArgs e)
+        private void menuItemExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -62,7 +59,7 @@ namespace SteamActivity
             }
         }
 
-        private void menuItem1_Click(object sender, EventArgs e)
+        private void menuItemOpen_Click(object sender, EventArgs e)
         {
             showApp();
         }
